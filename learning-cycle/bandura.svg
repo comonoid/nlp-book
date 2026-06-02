@@ -1,0 +1,127 @@
+<svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" style="font-family:system-ui,sans-serif;font-size:11px">
+  <defs>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Оси -->
+  <line x1="80" y1="400" x2="780" y2="400" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <line x1="80" y1="400" x2="80" y2="30" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
+  <!-- Подписи осей -->
+  <text x="90" y="30" font-size="10" font-weight="bold" fill="#333">Уровень профессиональной компетентности</text>
+  <text x="760" y="425" font-size="10" font-weight="bold" fill="#333">Время</text>
+
+  <!-- Горизонтальные уровни -->
+  <line x1="75" y1="80" x2="750" y2="80" stroke="#333" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="60" y="72" font-weight="bold">N</text>
+  <text x="90" y="72" font-size="10">Системная интеграция со смежными компетенциями</text>
+
+  <line x1="75" y1="140" x2="750" y2="140" stroke="#333" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="60" y="132" font-weight="bold">L</text>
+  <text x="90" y="132" font-size="10">Предел развития единичной компетенции</text>
+
+  <line x1="75" y1="220" x2="250" y2="220" stroke="#333" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="60" y="212" font-weight="bold">P</text>
+  <text x="90" y="212" font-size="10">Формирование первичного навыка</text>
+
+  <!-- Деления на оси X -->
+  <line x1="180" y1="395" x2="180" y2="405" stroke="#333" stroke-width="1"/>
+  <text x="180" y="418" font-weight="bold" text-anchor="middle">1</text>
+  <line x1="280" y1="395" x2="280" y2="405" stroke="#333" stroke-width="1"/>
+  <text x="280" y="418" font-weight="bold" text-anchor="middle">2</text>
+  <line x1="380" y1="395" x2="380" y2="405" stroke="#333" stroke-width="1"/>
+  <text x="380" y="418" font-weight="bold" text-anchor="middle">3</text>
+  <line x1="480" y1="395" x2="480" y2="405" stroke="#333" stroke-width="1"/>
+  <text x="480" y="418" font-weight="bold" text-anchor="middle">4</text>
+  <line x1="580" y1="395" x2="580" y2="405" stroke="#333" stroke-width="1"/>
+  <text x="580" y="418" font-weight="bold" text-anchor="middle">5</text>
+  <line x1="680" y1="395" x2="680" y2="405" stroke="#333" stroke-width="1"/>
+  <text x="680" y="418" font-weight="bold" text-anchor="middle">6</text>
+  <line x1="750" y1="395" x2="750" y2="405" stroke="#333" stroke-width="1"/>
+  <text x="750" y="418" font-weight="bold" text-anchor="middle">7</text>
+
+  <!-- Подпись под осью X -->
+  <text x="180" y="450" font-size="10" text-anchor="middle">Окончание</text>
+  <text x="180" y="462" font-size="10" text-anchor="middle">формального этапа</text>
+  <text x="180" y="474" font-size="10" text-anchor="middle">обучения</text>
+
+  <!-- Линия возвращения к первоначальной компетентности -->
+  <line x1="280" y1="360" x2="520" y2="360" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="300" y="375" font-size="9">Возвращение к первоначальной компетентности</text>
+
+  <!-- Кривая ожидаемой компетенции (пунктир) -->
+  <path d="M 95,360 Q 200,300 350,200 T 550,120 T 750,80" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <text x="680" y="160" font-size="10">Кривая ожидаемой</text>
+  <text x="680" y="172" font-size="10">компетенции</text>
+
+  <!-- Основная кривая -->
+  <path d="M 95,360
+           C 105,350 115,340 125,335
+           C 135,345 145,370 150,385
+           C 155,375 165,320 175,280
+           C 185,250 200,210 220,200
+           C 240,215 260,250 290,290
+           C 320,330 380,360 460,360
+           C 500,360 530,340 560,280
+           C 580,240 600,180 620,140
+           C 640,110 680,90 750,80"
+        fill="none" stroke="#333" stroke-width="2.5"/>
+
+  <!-- Вертикальные пунктирные линии от точек ⑤–⑩ -->
+  <line x1="220" y1="200" x2="220" y2="400" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="290" y1="290" x2="290" y2="400" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="460" y1="360" x2="460" y2="400" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="560" y1="280" x2="560" y2="400" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="620" y1="140" x2="620" y2="400" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="750" y1="80" x2="750" y2="400" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Точки на кривой -->
+  <circle cx="95" cy="360" r="5" fill="#333"/>
+  <text x="85" y="355" font-size="9" font-weight="bold">①</text>
+  <text x="60" y="380" font-size="9">Начальный</text>
+  <text x="60" y="392" font-size="9">уровень</text>
+
+  <circle cx="125" cy="335" r="4" fill="#333"/>
+  <text x="115" y="325" font-size="9" font-weight="bold">②</text>
+  <text x="100" y="310" font-size="9">1-я точка начала</text>
+  <text x="100" y="322" font-size="9">регрессии</text>
+
+  <circle cx="150" cy="385" r="4" fill="#333"/>
+  <text x="140" y="398" font-size="9" font-weight="bold">③</text>
+  <text x="125" y="412" font-size="9">Барьер</text>
+  <text x="117" y="424" font-size="9">преодоления</text>
+
+  <circle cx="175" cy="280" r="4" fill="#333"/>
+  <text x="165" y="270" font-size="9" font-weight="bold">④</text>
+  <text x="145" y="258" font-size="9">Формирование умения</text>
+
+  <circle cx="220" cy="200" r="4" fill="#333"/>
+  <text x="210" y="190" font-size="9" font-weight="bold">⑤</text>
+  <text x="195" y="175" font-size="9">Перенос новых знаний</text>
+  <text x="195" y="187" font-size="9">в проф. контекст Δ+</text>
+
+  <circle cx="290" cy="290" r="4" fill="#333"/>
+  <text x="280" y="280" font-size="9" font-weight="bold">⑥</text>
+  <text x="295" y="270" font-size="9">2-я точка начала</text>
+  <text x="295" y="282" font-size="9">регрессии Δ-</text>
+
+  <circle cx="460" cy="360" r="4" fill="#333"/>
+  <text x="450" y="350" font-size="9" font-weight="bold">⑦</text>
+  <text x="470" y="345" font-size="9">Барьер преодоления /</text>
+  <text x="470" y="357" font-size="9">Разочарование</text>
+
+  <circle cx="560" cy="280" r="4" fill="#333"/>
+  <text x="550" y="270" font-size="9" font-weight="bold">⑧</text>
+  <text x="510" y="255" font-size="9">Точка запуска</text>
+  <text x="510" y="267" font-size="9">синергетического эффекта</text>
+
+  <circle cx="620" cy="140" r="4" fill="#333"/>
+  <text x="610" y="130" font-size="9" font-weight="bold">⑨</text>
+
+  <circle cx="750" cy="80" r="5" fill="#333"/>
+  <text x="740" y="70" font-size="9" font-weight="bold">⑩</text>
+  <text x="695" y="55" font-size="9">Передача освоенных</text>
+  <text x="695" y="67" font-size="9">компетенций другим</text>
+</svg>
