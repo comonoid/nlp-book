@@ -70,6 +70,7 @@
   - [Что такое микростратегия](/microstrategies/14a_what-is-microstrategy.md)
   - [Выявление](/microstrategies/14b_elicitation.md)
   - [Изменение](/microstrategies/14c_change.md)
+  - [Внедрение](/microstrategies/14g_installation.md)
   - [Применение к метапрограммам](/microstrategies/14d_application.md)
   - [Сквозной пример](/microstrategies/14e_case-study.md)
   - [Выявление из текста](/microstrategies/14f_text-elicitation.md)
